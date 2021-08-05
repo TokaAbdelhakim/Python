@@ -1,6 +1,7 @@
 
 arr = []
-n_elements = int (input ("Enter no of elements: "))
+n_elements = int (input ("Enter number of array elements: "))
+print ("Enter your elements")
 for i in range(0,n_elements):
     ele=int(input())
     arr.append(ele)
